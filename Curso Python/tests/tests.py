@@ -583,59 +583,81 @@
 # ============================================================
 
 
-numero1 = float(input("Digite um número: "))
+# numero1 = float(input("Digite um número: "))
 
-calculo = input("Digite o tipo de cálculo (+, -, / ou *): ")
+# calculo = input("Digite o tipo de cálculo (+, -, / ou *): ")
 
-numero2 = float(input("Digite outro número: "))
-
-
-# Se o usuário escolher +, fazemos uma soma.
-
-if calculo == "+":
-    print(
-        f"O resultado da soma de {numero1} + {numero2} "
-        f"é: {numero1 + numero2}"
-    )
+# numero2 = float(input("Digite outro número: "))
 
 
-# Se escolher -, fazemos uma subtração.
+# # Se o usuário escolher +, fazemos uma soma.
 
-elif calculo == "-":
-    print(
-        f"O resultado da subtração de {numero1} - {numero2} "
-        f"é: {numero1 - numero2}"
-    )
-
-
-# Se escolher /, verificamos primeiro se numero2 é 0.
-
-elif calculo == "/":
-
-    # numero2 é o divisor.
-    # Não é possível dividir um número por zero.
-
-    if numero2 == 0:
-        print("Não é possível dividir por 0.")
-
-    else:
-        print(
-            f"O resultado da divisão de {numero1} / {numero2} "
-            f"é: {numero1 / numero2}"
-        )
+# if calculo == "+":
+#     print(
+#         f"O resultado da soma de {numero1} + {numero2} "
+#         f"é: {numero1 + numero2}"
+#     )
 
 
-# Se escolher *, fazemos uma multiplicação.
+# # Se escolher -, fazemos uma subtração.
 
-elif calculo == "*":
-    print(
-        f"O resultado da multiplicação de {numero1} * {numero2} "
-        f"é: {numero1 * numero2}"
-    )
+# elif calculo == "-":
+#     print(
+#         f"O resultado da subtração de {numero1} - {numero2} "
+#         f"é: {numero1 - numero2}"
+#     )
 
 
-# Se o usuário digitar qualquer outro símbolo,
-# nenhuma condição acima será verdadeira.
+# # Se escolher /, verificamos primeiro se numero2 é 0.
 
-else:
-    print("Tipo de cálculo inválido.")
+# elif calculo == "/":
+
+#     # numero2 é o divisor.
+#     # Não é possível dividir um número por zero.
+
+#     if numero2 == 0:
+#         print("Não é possível dividir por 0.")
+
+#     else:
+#         print(
+#             f"O resultado da divisão de {numero1} / {numero2} "
+#             f"é: {numero1 / numero2}"
+#         )
+
+
+# # Se escolher *, fazemos uma multiplicação.
+
+# elif calculo == "*":
+#     print(
+#         f"O resultado da multiplicação de {numero1} * {numero2} "
+#         f"é: {numero1 * numero2}"
+#     )
+
+
+# # Se o usuário digitar qualquer outro símbolo,
+# # nenhuma condição acima será verdadeira.
+
+# else:
+#     print("Tipo de cálculo inválido.")
+
+
+# nome = input('Digite seu nome: ')
+# idade = int(input('Digite sua idade: '))
+
+# if nome and idade:
+#     if len(nome) >= 3:
+
+#         print(f'Seu nome é: {nome}, e sua idade é: {idade}')
+#         print(f'Seu nome invertido: {nome[::-1]}')
+#         print(f'Seu nome tem {len(nome)} letras.')
+#         print(f'A primeira letra do seu nome é: {nome[0]}')
+#         print(f'A última letra do seu nome é: {nome[-1]}')
+#         if ' ' in nome:
+#             print('Seu nome contém espaço.')
+#         else:
+#             print('Seu nome não contém espaço.')
+#     else:
+#         print('O nome precisa ter no mínimo 3 caracteres.')
+   
+# else:
+#     print('Dados inválidos.')
